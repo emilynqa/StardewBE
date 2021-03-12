@@ -1,5 +1,8 @@
+
 DROP TABLE IF EXISTS `villager` CASCADE;
 CREATE TABLE villager (
+
+
 	id BIGINT AUTO_INCREMENT,
 	name VARCHAR(255),
 	birth_day INTEGER NOT NULL,
