@@ -4,6 +4,9 @@ import java.util.List;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+
+import org.springframework.web.bind.annotation.CrossOrigin;
+
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,6 +19,10 @@ import com.qa.stardewproject.domain.Villager;
 import com.qa.stardewproject.service.villager.VillagerService;
 
 @RestController
+
+@CrossOrigin
+
+
 public class VillagerController {
 
 	private VillagerService service;
